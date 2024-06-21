@@ -21,7 +21,7 @@ public class binarySearch {
 
     public static void main(String[] args) {
         int arrays[] = { 1, 2, 3, 4, 5 };
-        int target = 5;
+        int target = 3;
         int b = binary(arrays, target);
         System.out.println(b);
 
