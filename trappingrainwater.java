@@ -20,7 +20,7 @@ public class trappingrainwater {
         }
 
         // loop
-
+        
         int trappedWater = 0;
 
         if (array.length == 2) {
@@ -37,7 +37,7 @@ public class trappingrainwater {
     }
 
     public static void main(String[] args) {
-        int array[] = { 12, 2, 0, 1, 0, 7, 9 };
+        int array[] = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
         int water = trappedWater(array);
         System.out.println(water + " m^3");
     }

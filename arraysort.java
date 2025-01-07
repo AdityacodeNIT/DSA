@@ -23,7 +23,7 @@ public class arraysort {
     }
 
     public static void main(String[] args) {
-        int array[] = { 5, 4, 1, 3, 2 };
+        int array[] = { 5, 4, 1, 0, 2 };
         bubbleSort(array);
     }
 }
